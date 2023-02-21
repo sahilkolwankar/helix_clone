@@ -1,0 +1,55 @@
+@use '../../App.scss';
+
+.cardWrapper {
+    background: #ffffff;
+    border-radius: 25px;
+    padding: 24px;
+}
+
+.cardTitle {
+    color: #34324c;
+    display: flex;
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 32px;
+}
+
+.cardDataWrapper {
+    gap: 24px;
+}
+
+.cardData {
+    gap: 14px;
+}
+
+.cardText {
+    color: #51646d;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.upvotes {
+    color: #969696;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.upvoteCount {
+    margin-right: 4px;
+}
+
+.netUpvoteIcon {
+    align-self: center;
+    margin-right: 10px;
+    height: 13px;
+    width: 12px;
+}

@@ -1,0 +1,26 @@
+@use '../../App.scss';
+
+.bannerWrapper {
+    background: #969696;
+    border-radius: 32px;
+    gap: 28px;
+    justify-content: center;
+    margin: 96px auto 0;
+    padding: 87px 0 86px;
+    width: 1120px;
+}
+
+.logo {
+    height: 69px;
+    width: 69px;
+}
+
+.bannerTitle {
+    align-self: center;
+    color: #34324C;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+}

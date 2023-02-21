@@ -1,0 +1,21 @@
+@use '../../App.scss';
+
+.containerWrapper {
+    display: flex;
+    justify-content: flex-end;
+    width: 1120px;
+}
+
+.button {
+    align-items: center;
+    background: #6074DD;
+    border-radius: 40px;
+    box-shadow: 0px 4px 8px 0px #6074DD40;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    padding: 8px 12px;
+    width: fit-content;
+    font-size: 12px;
+    line-height: 14px;
+  }

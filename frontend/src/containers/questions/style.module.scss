@@ -1,0 +1,177 @@
+@use '../../App.scss';
+
+.questionsWrapper {
+    display: flex;
+    width: 751px;
+}
+  
+.questionModal {
+    background: #ffffff;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    justify-self: center;
+    margin: 100px auto 0;
+    padding: 24px;
+    width: 462px;
+    .header {
+        border-bottom: 1px solid #DEDEDE;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-bottom: 24px;
+        width: 100%;
+    }
+    .title {
+        color: #34324C;
+        display: flex;
+        flex-direction: column;
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .form {
+        display: flex;
+        flex-direction: column;
+        gap: 14px;
+        justify-content: space-between;
+        margin-top: 16px;
+    }
+    input,
+    textarea {
+        border: 1px solid #DEDEDE;
+        border-radius: 16px;
+        display: flex;
+        padding: 14px 0 15px 16px;
+    }
+    textarea {
+        border-radius: 16px 16px 0 0;
+    }
+    input::placeholder,
+    textarea::placeholder {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+        color: #969696;
+    }
+    textarea {
+        font-family: 'Arial';
+        height: 160px;
+        resize: none;
+    }
+    .footer {
+        align-items: center;
+        border: 1px solid #DEDEDE;
+        border-radius: 0 0 16px 16px;
+        gap: 16px;
+        padding: 12px 24px;
+        width: calc(100% - 50px);
+        .attachment {
+            align-items: center;
+            display: flex;
+        } 
+        .submitButton {
+            align-items: center;
+            background: #99A5E6;
+            box-shadow: 0px 4px 8px rgba(96, 116, 221, 0.25);
+            border-radius: 25px;
+            display: flex;
+            color: #ffffff;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 12px;
+            line-height: 14px;
+            margin-left: auto;
+            padding: 6px 12px;
+        }
+    }
+}
+  
+.closeIcon {
+    display: flex;
+}
+  
+.questionsHistory {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 100%;
+}
+  
+.questionWrapper {
+    background: #FFFFFF;
+    border-radius: 25px;
+    height: fit-content;
+    padding: 24px;
+    width: calc(100% - 48px);
+}
+  
+.questionInnerWrapper {
+    width: 100%;
+}
+  
+.questionTitle {
+    color: #34324C;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 12px;
+}
+  
+.questionBody {
+    border-bottom: 1px solid #DEDEDE;
+    color: #000000;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    padding-bottom: 24px;
+}
+  
+.questionMetadata {
+    margin-top: 24px;
+}
+  
+.askedBy {
+    color: #34324C;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+}
+  
+.data {
+    align-items: center;
+    gap: 12px;
+    margin-top: 8px;
+}
+  
+.name {
+    color: #6074DD;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
+  
+.questions {
+    color: #969696;
+    display: inline-flex;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+}

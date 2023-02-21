@@ -1,0 +1,47 @@
+@use '../../App.scss';
+
+.cardWrapper {
+  background: #ffffff;
+  border-radius: 25px;
+  padding: 24px;
+}
+
+.cardTitle {
+  color: #34324c;
+  display: flex;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  margin-bottom: 32px;
+}
+
+.cardDataWrapper {
+  gap: 24px;
+}
+
+.cardData {
+  gap: 14px;
+}
+
+.cardText {
+  color: #51646d;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.height-20 {
+    height: 20px;
+}
+
+.height-18 {
+    height: 18px;
+}
+
+.height-24 {
+    height: 24px;
+}
